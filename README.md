@@ -43,8 +43,8 @@ The **100 Days of DevOps** is a practical challenge aimed at learning by doing. 
 
 **Objective**: Centralize permissions by creating a shared group and adding users across multiple servers.
 
-- Created a group `devops`
-- Added existing user `collins` to the `devops` group
+- Created a group `nautilus_admin_users`
+- Added existing user `jarod` to the `nautilus_admin_users` group
 - Applied consistent group permissions on shared directories across two or more servers
 
 ---
