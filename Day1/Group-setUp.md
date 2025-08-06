@@ -19,9 +19,9 @@ ssh username@server_ip
 
 ### 2. Create the Group
 ```bash
-sudo groupadd devopsgroup
+sudo groupadd rautilus_admin_users
 
-- Replace devopsgroup with your desired group name.
+- Replace rautilus_admin_users with your desired group name.
 
 ⚠️ If the group already exists, this command will throw an error — it is safe to ignore.
 ```
@@ -29,7 +29,7 @@ sudo groupadd devopsgroup
 
 ### 3. Create the User (if not already created)
 ```bash
-sudo useradd -m -s /bin/bash newuser
+sudo useradd -m -s /bin/bash jarod
 ```
 #### -m creates a home directory
 
@@ -40,7 +40,7 @@ sudo useradd -m -s /bin/bash newuser
 ```
 ### 4. Add the User to the Group
 ```bash
-sudo usermod -aG devopsgroup newuser
+sudo usermod -aG rautilus_admin_users jarod
 ```
 ---
 
