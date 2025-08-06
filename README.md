@@ -48,7 +48,7 @@ The **100 Days of DevOps** is a practical challenge aimed at learning by doing. 
 - Applied consistent group permissions on shared directories across two or more servers
 
 ---
-## Day 2 - Linux User Setup with a Non-Interactive Shell
+## Day 2: Temporary User Setup with Expiry
 
 
 
